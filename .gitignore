@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Poetry
+poetry.lock
+# 만약 lock 파일을 공유하고 싶지 않을 경우 위 항목 유지
+# 공유하려면 주석처리
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+*.env.*
+
+# FastAPI/Uvicorn logs
+*.log
+
+# Selenium 관련 캐시/다운로드
+selenium-downloads/
+chromedriver.exe
+chromedriver.log
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Test output
+htmlcov/
+.coverage
+.tox/
+.nox/
+pytest_cache/
+.cache
+
+# Jupyter Notebook (혹시 쓸 경우)
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Pydantic generated files (if any)
+*.pydantic.*
+
+# Docker
+docker-compose.override.yml
+**/__pycache__/
+*.db
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# DBeaver
+.dbeaver-data-sources.xml
+
+# Postman
+*.postman_collection.json
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

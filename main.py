@@ -1,3 +1,11 @@
+import os
+import sys
+from dotenv import load_dotenv
+
+# .env 파일 로드 및 PYTHONPATH 반영
+load_dotenv()
+sys.path.append(os.getenv("PYTHONPATH", "./app"))
+
 from fastapi import FastAPI
 from schemas.schemas import DeliveryRegisterRequest, DeliveryRegisterResponse
 from services.delivery_service import register_delivery
