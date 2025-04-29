@@ -75,3 +75,7 @@ desktop.ini
 build/
 dist/
 *.egg-info/
+
+# Random Cookies
+**/cookies/
+
